@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	file, err := os.OpenFile("storich/username.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	file, err := os.OpenFile("/home/saidazim/NT_Homeworks/Uy_ishi22/storage/username.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 	if err != nil {
 		log.Fatal(err)
 	}
